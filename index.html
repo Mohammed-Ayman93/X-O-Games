@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="start">
+        <h1>X O Game</h1>
+        <input  placeholder="Player1" id="player1" type="text">
+        <input  placeholder="Player2" id="player2" type="text">
+        <br>
+        <p id="warnning" class="hide">PLEASE ENTER PLAYERS NAMES</p>
+        <button id="btn">Click To Start</button>
+        <h2>Desined By Mohammed Ayman</h2>
+
+    </div>
+    <div id="head" class="title">X - O Game</div>
+    <div class="players">
+        <div>Player1 (X) : <span id="player01"> player 1 </span></div>
+        <div>Player2 (O) : <span id="player02"> player 2 </span></div>
+    </div>
+    <div class="turn">Turn : <span id="playerTurn"></span> </div>
+    <div class="container">
+        <div onclick="game(this.id)" sqaure id="sqare1" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare2" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare3" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare4" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare5" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare6" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare7" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare8" class="sqare"></div>
+        <div onclick="game(this.id)" sqaure id="sqare9" class="sqare"></div>
+    </div>
+    <div class="title">Disened By Mohammed Ayman</div>
+    <div  class="win hide"> <p > <span id="winner"></span><br> <span id="winer"> WIN</span></p></div>
+    <div class="draw hide"><p id="DRAW">DRAW</p></div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
