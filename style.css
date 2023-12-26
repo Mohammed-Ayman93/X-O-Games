@@ -137,7 +137,8 @@
         font-size: 90px;
         width: calc(85% / 3);
     }
-    .win p{
+    .win p,
+    .draw p{
         font-size: 90px;
         margin: 219px auto;
     }
@@ -153,7 +154,8 @@
         font-size: 40px;
         width: calc(66% / 3);
     }
-    .win p{
+    .win p,
+    .draw p{
         font-size: 40px;
         margin: 144px auto;
     }
